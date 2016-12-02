@@ -386,7 +386,7 @@ Projects
 
 .cd-projects-previews li:nth-of-type(4) a,
 .cd-projects > li:nth-of-type(4) .preview-image {
-  background: #835531 url(../img/img-4.png) no-repeat center center;
+  background: #835531 url(../img/img-4.jpg) no-repeat center center;
   background-size: cover;
 }
 
@@ -787,6 +787,7 @@ JavaScript Disabled
 /*Estilasho*/
 .bold{
   font-weight: bold;
+  font-size: 20px;
 }
 hr{
   width: 20%;
@@ -876,9 +877,9 @@ h1 span {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     
-    -webkit-animation: typing 17s steps(100, end), /* # of steps = # of characters */
+    -webkit-animation: typing 10s steps(50, end), /* # of steps = # of characters */
                         blink-caret 1s step-end infinite;
-    -moz-animation: typing 17s steps(100, end), /* # of steps = # of characters */
+    -moz-animation: typing 10s steps(50, end), /* # of steps = # of characters */
                         blink-caret 1s step-end infinite;
 }
 .grey{
