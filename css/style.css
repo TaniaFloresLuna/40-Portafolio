@@ -386,7 +386,7 @@ Projects
 
 .cd-projects-previews li:nth-of-type(4) a,
 .cd-projects > li:nth-of-type(4) .preview-image {
-  background: #835531 url(../img/img-4.jpg) no-repeat center center;
+  background: #835531 url(../img/img-4.png) no-repeat center center;
   background-size: cover;
 }
 
@@ -791,8 +791,11 @@ JavaScript Disabled
 hr{
   width: 20%;
 }
+.mg-5{
+  margin: 5%;
+}
 .mg-10{
-  margin: 15%;
+  margin: 10%;
 }
 .mg-top-5{
   margin-top: 5%;  
@@ -818,10 +821,77 @@ hr{
 .paragraph{
   font-family: 'Prompt', sans-serif;
 }
+h1 {
+    font-family: Consolas, monospace !important;
+    background: #fff;
+    position: relative; 
+    float: left;
+    font-size:150%;
+}
+h1 span {
+    position:absolute;
+    top:0;
+    right:0;
+    width:0;
+    background: #fff; /* el mismo que el body */
+    border-left: .1em solid black;
+}
+
+@-webkit-keyframes typing {
+    from { width: 100% }
+    to { width:0 }
+}
+
+@-webkit-keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: black }
+}
+
+@-moz-keyframes typing {
+    from { width: 100% }
+    to { width:0 }
+}
+
+@-moz-keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: black }
+}
+
+body { font-family: Consolas, monospace; }
+
+h1 { 
+    position: relative; 
+    float: left;
+    font-size:150%;
+}
+
+h1 span {
+    position:absolute;
+    top:0;
+    right:0;
+    width:0;
+    background: white; /* same as background */
+    border-left: .1em solid black;
+    
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    
+    -webkit-animation: typing 17s steps(100, end), /* # of steps = # of characters */
+                        blink-caret 1s step-end infinite;
+    -moz-animation: typing 17s steps(100, end), /* # of steps = # of characters */
+                        blink-caret 1s step-end infinite;
+}
 .grey{
   color: #adad85;
 }
-
+.imag{
+  width: 60%;
+  height: 60%;
+  margin: auto;
+}
+.float-left{
+  float: left;
+}
 
 /*Pop-up*/
 
@@ -1024,26 +1094,20 @@ xpopup
       7px 7px 0px rgba(0, 0, 0, 0.2);
   }
   .deepshadow {
-    color: #e0dfdc;
+    color: #2c2c2c;
+    background-color: #d5d5d5;
+    letter-spacing: .05em;
+    text-shadow: 
+      4px 4px 0px #d5d5d5, 
+      7px 7px 0px rgba(0, 0, 0, 0.2);
+  }
+  .insetshadow {
+    color: #202020;
+    background-color: #2d2d2d;
     letter-spacing: .1em;
     text-shadow: 
-      0 -1px 0 #fff, 
-      0 1px 0 #2e2e2e, 
-      0 2px 0 #2c2c2c, 
-      0 3px 0 #2a2a2a, 
-      0 4px 0 #282828, 
-      0 5px 0 #262626, 
-      0 6px 0 #242424, 
-      0 7px 0 #222, 
-      0 8px 0 #202020, 
-      0 9px 0 #1e1e1e, 
-      0 10px 0 #1c1c1c, 
-      0 11px 0 #1a1a1a, 
-      0 12px 0 #181818, 
-      0 13px 0 #161616, 
-      0 14px 0 #141414, 
-      0 15px 0 #121212, 
-      0 22px 30px rgba(0, 0, 0, 0.9);
+      -1px -1px 1px #111, 
+      2px 2px 1px #363636;
   }
 
 

@@ -182,7 +182,7 @@ jQuery(document).ready(function($){
 				});
 			});
 		});
-			//open popup
+/*			//open popup
 	$('.cd-popup-trigger').on('click', function(event){
 		event.preventDefault();
 		$('.cd-popup').addClass('is-visible');
@@ -200,7 +200,7 @@ jQuery(document).ready(function($){
     	if(event.which=='27'){
     		$('.cd-popup').removeClass('is-visible');
 	    }
-    });
+    });*/
 	
 	};
 })(jQuery);
