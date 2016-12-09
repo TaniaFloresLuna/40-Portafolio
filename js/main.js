@@ -1,6 +1,6 @@
 jQuery(document).ready(function($){
 
-	//cache DOM elements
+	//cache DOM el
 	var projectsContainer = $('.cd-projects-container'),
 		projectsPreviewWrapper = projectsContainer.find('.cd-projects-previews'),
 		projectPreviews = projectsPreviewWrapper.children('li'),

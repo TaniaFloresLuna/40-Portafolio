@@ -3,6 +3,12 @@
 Primary style
 
 -------------------------------- */
+.gray{
+  color:  #adad85 !important;
+}
+.next-slide.prev-slide{
+    color:  #adad85 !important;
+}
 *, *::after, *::before {
   box-sizing: border-box;
 }
@@ -14,7 +20,6 @@ html {
 body {
   font-size: 1.6rem;
   font-family: "Source Sans Pro", sans-serif;
-  background-color: gray;
 }
 
 a {
@@ -153,7 +158,7 @@ Slider navigation
   overflow: hidden;
   text-indent: 100%;
   white-space: nowrap;
-  color: transparent;
+  border: 3px solid  #adad85 !important;
   background: url(../img/cd-icon-arrows.svg) no-repeat 0 0;
   -webkit-transition: -webkit-transform 0.2s;
   -moz-transition: -moz-transform 0.2s;

@@ -4,7 +4,18 @@
 	margin-left: 20%;
 
 }
-
+*{
+	color: #7d7c7b;
+}
+.tittle{
+  font-family: 'Berkshire Swash', cursive;
+}
+.subtittle{
+  font-family: 'Courgette', cursive;
+}
+.paragraph{
+  font-family: 'Prompt', sans-serif;
+}
 
 #codeconSkills {
 font-size: 20px;
